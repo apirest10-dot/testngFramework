@@ -1,0 +1,10 @@
+<suite name ="MyReport" parallel= "true" test="parallel">
+<test name ="HTMLReport" test="parallel" parallel="false" >
+<classes>
+<!-- <class name="oct1.FirstTestNgclass">
+</class> -->
+<class name="oct1.Secondtestngclass">
+</class>
+</classes>
+</test>
+</suite>

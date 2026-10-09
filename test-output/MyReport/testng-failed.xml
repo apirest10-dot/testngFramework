@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="methods" name="Failed suite [MyReport]">
+  <test thread-count="5" parallel="methods" name="HTMLReport(failed)">
+    <classes>
+      <class name="oct1.FirstTestNgclass">
+        <methods>
+          <include name="leave"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- oct1.FirstTestNgclass -->
+    </classes>
+  </test> <!-- HTMLReport(failed) -->
+</suite> <!-- Failed suite [MyReport] -->
